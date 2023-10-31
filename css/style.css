@@ -184,7 +184,7 @@ img {
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
+     border-color: blue !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -912,21 +912,16 @@ textarea#comment::placeholder {
     padding-top: 83px;
 }
 .input-group {
-    width: 45%;
+    width: 100%;
     float: right;
 }
 
 .form-control {
-    display: block;
-    /* width: 100%; */
-    padding: 0px 15px 10px 0px;
-    font-size: 18px;
-    /* line-height: 1.5; */
-    color: #fff;
+    color: black;
     background-color: transparent;
     /* background-clip: padding-box; */
-    border-bottom: 1px solid #fff !important;
-    border-radius: 0px;
+    border: 1px solid black !important;
+    border-radius: 5px;
     /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
     border: 0px;
 }
@@ -948,13 +943,8 @@ textarea#comment::placeholder {
 .input-group>.custom-file, 
 .input-group>.custom-select, 
 .input-group>.form-control {
-    position: relative;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    width: 1%;
-    margin-bottom: 0px;
     background: transparent !important;
-    border-bottom: 1px solid #ffff;
+    border-bottom: 1px solid blue;
 }
 .footer_section{
     width: 100%;
@@ -1044,4 +1034,14 @@ textarea#comment::placeholder {
   
   .centered {
     margin: 10px 0;
+  }
+  
+.custom-card1 {
+    width: 100%; 
+    height: 220px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .custom-card1:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); 
   }

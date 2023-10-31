@@ -8,6 +8,11 @@
     .header-search {
         padding: 15px 0px;
     }
+    .custom-card1 {
+       
+        height: 300px; 
+       
+      }
 }
 
 
@@ -449,7 +454,7 @@ ul.link li {
 .dololr_text { font-size: 16px; }
 .contact_section { background-size: cover; }
 .send_bt a { width: 130px; padding: 5px 0px; }
-.input-group { width: 290px; } 
+.input-group { width: 260px; } 
 .container_main1::after { width: 98%; height: 93%; }
 #costum_slider a.carousel-control-next { display: none; }
 #costum_slider a.carousel-control-prev { display: none; }
