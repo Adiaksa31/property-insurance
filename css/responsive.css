@@ -17,6 +17,11 @@
         width: 100%;
         float: right;
     }
+    .custom-card {
+        
+        height: 320px; 
+        
+      }
 }
 
 
@@ -144,7 +149,11 @@
         float: right;
     }
 
-
+    .custom-card {
+        
+        height: 250px; 
+        
+      }
 
 
 }

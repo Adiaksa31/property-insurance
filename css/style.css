@@ -275,7 +275,9 @@ button {
     padding-right: 20px;
     padding-left: 20px;
 }
-
+i{
+    color: blue !important;
+}
 .nav-item {
     position: relative;
 }
@@ -1052,6 +1054,67 @@ textarea#comment::placeholder {
 .custom-card1 {
     width: 100%; 
     height: 220px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .custom-card1:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); 
+  }
+  .accordion {
+    width: 100%;
+    color: white;
+  }
+  
+  .accordion-item {
+   background-color: #2f53f7;
+   border-radius: 15px;
+   color: white;
+   padding: 10px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f53f7;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .accordion-icon i{
+    color: white !important;
+  }
+  .accordion-header h5{
+    color: white;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
+  
+  .accordion-icon i {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .accordion-item.active .accordion-icon i {
+    transform: rotate(180deg);
+  }
+  .custom-card {
+    width: 100%; 
+    height: 220px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .custom-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); 
+  }
+  .custom-card1 {
+    width: 100%; 
+    height: 420px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
   }
