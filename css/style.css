@@ -925,6 +925,19 @@ textarea#comment::placeholder {
     /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
     border: 0px;
 }
+.input-group2 {
+    width: 23%;
+    float: right;
+}
+
+.form-control2 {
+    color: black;
+    background-color: transparent;
+    /* background-clip: padding-box; */
+    border-bottom: 1px solid white !important;
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; */
+    border: 0px;
+}
 .input-group-text {
     padding: 0px;
     margin-bottom: 0;

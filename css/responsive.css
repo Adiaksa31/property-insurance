@@ -13,6 +13,10 @@
         height: 300px; 
        
       }
+      .input-group2 {
+        width: 100%;
+        float: right;
+    }
 }
 
 
@@ -85,6 +89,9 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+    
+    
+    
 }
 
 
@@ -132,6 +139,10 @@
         top: 0;
     }
 
+    .input-group2 {
+        width: 100%;
+        float: right;
+    }
 
 
 
